@@ -2,15 +2,28 @@
 
 using namespace std;
 
-int main() {
-    double sum = 0;
-    for (int i = 1; i < 1000; i++) {
-        if (i % 3 == 0 || i % 5 == 0)
-            sum += i;
+
+class Multiply {
+    int sum;
+public:
 
 
+
+    Multiply(int n) {
+        for (int i = 1; i < n; i++) {
+            if (i % 3 == 0 || i % 5 == 0)
+                sum += i;
+        }
     }
-    cout << sum << endl;
 
+    void displaySum() {
+        cout << sum << endl;
+    }
+};
+
+int main() {
+    Multiply multiply = Multiply(1000);
+
+    multiply.displaySum();
     return 0;
 }
