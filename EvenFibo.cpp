@@ -16,7 +16,6 @@ double EvenFibo::findEvenFiboSum(int n) {
             sum += current;
         first = second;
         second = current;
-        std::cout << current << std::endl;
     }
 }
 
