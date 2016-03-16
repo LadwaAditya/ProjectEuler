@@ -6,20 +6,20 @@
 #include "header/EvenFibo.h"
 
 
-double EvenFibo::findEvenFiboSum(int n) {
+EvenFibo::EvenFibo(int n) {
     int first = 0;
     int second = 1;
-    int current = 0;
+    long current = 0;
     while (current < n) {
         current = first + second;
         if (current % 2 == 0)
-            sum += current;
+            sumFibo += current;
         first = second;
         second = current;
     }
 }
 
 void EvenFibo::displaySum() {
-    std::cout << sum << std::endl;
+    std::cout << sumFibo << std::endl;
 }
 

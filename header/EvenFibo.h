@@ -8,11 +8,11 @@
 
 class EvenFibo {
 private:
-    long sum;
+    long sumFibo = 0;
 
 public:
 
-    double findEvenFiboSum(int n);
+    EvenFibo(int n);
 
     void displaySum();
 
