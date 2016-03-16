@@ -9,7 +9,13 @@
 class EvenFibo {
 private:
     double sum;
-    int fibo(int n);
+
+public:
+
+    double findEvenFiboSum(int n);
+
+    void displaySum();
+
 };
 
 
