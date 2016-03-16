@@ -7,7 +7,14 @@
 
 
 class LargestPrime {
+private:
+    long long int limit = 600851475143;
+    long int primeFactor = 0;
 
+public:
+
+
+    LargestPrime();
 };
 
 
