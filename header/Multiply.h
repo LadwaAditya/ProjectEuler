@@ -11,7 +11,6 @@ private:
     int sum;
 public:
     Multiply(int n);
-
     void displaySum();
 };
 

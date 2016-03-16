@@ -7,7 +7,9 @@
 
 
 class EvenFibo {
-
+private:
+    double sum;
+    int fibo(int n);
 };
 
 

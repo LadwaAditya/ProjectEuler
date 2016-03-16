@@ -2,4 +2,8 @@
 // Created by Aditya on 16-Mar-16.
 //
 
-#include "EvenFibo.h"
+#include "header/EvenFibo.h"
+
+int EvenFibo::fibo(int n) {
+    return 0;
+}
