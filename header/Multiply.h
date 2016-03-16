@@ -8,7 +8,7 @@
 
 class Multiply {
 private:
-    int sumMultiply;
+    int sumMultiply = 0;
 public:
     Multiply(int n);
     void displaySum();
