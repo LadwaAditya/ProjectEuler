@@ -4,4 +4,4 @@ project(ProjectEuler)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES main.cpp)
-add_executable(ProjectEuler ${SOURCE_FILES} Multiply.cpp Multiply.h)
+add_executable(ProjectEuler ${SOURCE_FILES} Multiply.cpp Multiply.h EvenFibo.cpp EvenFibo.h)
