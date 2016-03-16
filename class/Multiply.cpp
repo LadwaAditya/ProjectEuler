@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "header/Multiply.h"
+#include "../header/Multiply.h"
 
 Multiply::Multiply(int n) {
     for (int i = 1; i < n; i++) {

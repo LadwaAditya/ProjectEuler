@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "header/EvenFibo.h"
+#include "../header/EvenFibo.h"
 
 
 EvenFibo::EvenFibo(int n) {
