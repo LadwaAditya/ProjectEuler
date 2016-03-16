@@ -8,7 +8,7 @@
 
 class EvenFibo {
 private:
-    double sum;
+    long sum;
 
 public:
 
