@@ -15,6 +15,7 @@ int main() {
     fibo.displaySum();
 
     LargestPrime prime = LargestPrime();
+    prime.displayPrime();
 
 
     return 0;

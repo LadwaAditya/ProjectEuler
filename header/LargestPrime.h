@@ -9,7 +9,7 @@
 class LargestPrime {
 private:
     long long int limit = 600851475143;
-    long int primeFactor = 0;
+    long long int primeFactor = 0;
 
 public:
 
@@ -18,7 +18,7 @@ public:
 
     void displayPrime();
 
-    bool checkPrime(long long int i);
+    bool checkPrime(long long int num);
 };
 
 
