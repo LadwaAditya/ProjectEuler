@@ -1,6 +1,7 @@
 #include <iostream>
 #include "header/EvenFibo.h"
 #include "header/Multiply.h"
+#include "header/LargestPrime.h"
 
 using namespace std;
 
@@ -12,6 +13,8 @@ int main() {
 
     EvenFibo fibo = EvenFibo(4000000);
     fibo.displaySum();
+
+    LargestPrime prime = LargestPrime();
 
 
     return 0;

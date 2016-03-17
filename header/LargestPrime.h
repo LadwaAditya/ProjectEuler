@@ -15,6 +15,10 @@ public:
 
 
     LargestPrime();
+
+    void displayPrime();
+
+    bool checkPrime(long long int i);
 };
 
 
