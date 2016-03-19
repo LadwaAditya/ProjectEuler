@@ -9,8 +9,10 @@ Palindrom::Palindrom() {
     std::cout << "Created object" << std::endl;
     for (register int i = 999; i >= 100; i--) {
         for (register int j = 999; j >= 100; j--) {
-            long temp = i * j;
-
+            if (isPalindrom(i * j)) {
+                largestPalindrom = i * j;
+                break;
+            }
 
         }
     }
@@ -26,6 +28,10 @@ bool Palindrom::isPalindrom(long num) {
         num = num / 10;
     }
     return reverse == ori;
+}
+
+void Palindrom::printPalindrom() {
+    std::cout << largestPalindrom << std::endl;
 }
 
 

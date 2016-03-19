@@ -14,6 +14,7 @@ private:
 public:
     Palindrom();
     bool isPalindrom(long num);
+    void printPalindrom();
 };
 
 
