@@ -13,6 +13,7 @@ private:
 
 public:
     Palindrom();
+    bool isPalindrom(long num);
 };
 
 
