@@ -14,18 +14,18 @@ Palindrom::Palindrom() {
 
         }
     }
-    std::cout << isPalindrom(111) << std::endl;
 }
 
 bool Palindrom::isPalindrom(long num) {
-    int tem = 0;
+    int reverse = 0;
+    int remainder = 0;
     int ori = num;
-    while (num != 0) {
-        tem = num % 10;
-        tem = tem * 10;
+    while (num > 0) {
+        remainder = num % 10;
+        reverse = reverse * 10 + remainder;
         num = num / 10;
     }
-    return tem == ori;
+    return reverse == ori;
 }
 
 
