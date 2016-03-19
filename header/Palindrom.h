@@ -11,9 +11,11 @@ class Palindrom {
 private:
     long int largestPalindrom = 0;
 
+    bool isPalindrom(long num);
+
 public:
     Palindrom();
-    bool isPalindrom(long num);
+
     void printPalindrom();
 };
 
