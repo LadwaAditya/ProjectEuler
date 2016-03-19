@@ -19,6 +19,6 @@ int main() {
 //    prime.displayPrime();
 
     Palindrom palindrom = Palindrom();
-
+    palindrom.printPalindrom();
     return 0;
 }

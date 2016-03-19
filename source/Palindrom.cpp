@@ -10,8 +10,8 @@ Palindrom::Palindrom() {
     for (register int i = 999; i >= 100; i--) {
         for (register int j = 999; j >= 100; j--) {
             if (isPalindrom(i * j)) {
-                largestPalindrom = i * j;
-                break;
+                if (largestPalindrom < i * j)
+                    largestPalindrom = i * j;
             }
 
         }
