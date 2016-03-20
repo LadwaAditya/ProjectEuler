@@ -9,8 +9,8 @@ SmallestMultiple::SmallestMultiple() {
 
     int n = 20;
     bool flag = false;
-    while (n) {
-        for (int i = 1; i <= 20; i++) {
+    while (true) {
+        for (int i = 2; i <= 20; i++) {
             flag = n % i == 0;
             if (!flag)
                 break;
