@@ -1,8 +1,5 @@
 #include <iostream>
-#include "header/EvenFibo.h"
-#include "header/Multiply.h"
-#include "header/LargestPrime.h"
-#include "header/Palindrom.h"
+#include "header/SmallestMultiple.h"
 
 using namespace std;
 
@@ -18,7 +15,11 @@ int main() {
 //    LargestPrime prime = LargestPrime();
 //    prime.displayPrime();
 
-    Palindrom palindrom = Palindrom();
-    palindrom.printPalindrom();
+//    Palindrom palindrom = Palindrom();
+//    palindrom.printPalindrom();
+
+    SmallestMultiple smallestMultiple = SmallestMultiple();
+    smallestMultiple.printMultiple();
+
     return 0;
 }

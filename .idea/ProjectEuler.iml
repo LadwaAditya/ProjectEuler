@@ -6,13 +6,13 @@
       <sourceFolder url="file://$MODULE_DIR$/header/Palindrom.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/header/LargestPrime.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/header/EvenFibo.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/source/SmallestMultiple05.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/header/SmallestMultiple.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/source/SmallestMultiple.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/source/Palindrom.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/source/EvenFibo.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/source/Multiply.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/source/LargestPrime.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/SmallestMultiple05.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
