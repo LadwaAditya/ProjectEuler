@@ -18,8 +18,10 @@ int main() {
 //    Palindrom palindrom = Palindrom();
 //    palindrom.printPalindrom();
 
-    SmallestMultiple smallestMultiple = SmallestMultiple();
-    smallestMultiple.printMultiple();
+//    SmallestMultiple smallestMultiple = SmallestMultiple();
+//    smallestMultiple.printMultiple();
+
+
 
     return 0;
 }

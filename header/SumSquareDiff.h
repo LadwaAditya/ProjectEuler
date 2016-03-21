@@ -7,7 +7,14 @@
 
 
 class SumSquareDiff {
+private:
+    long sumSquareDiff = 0;
+    long sumSquare = 0;
+    long SquareSum = 0;
+public:
+    SumSquareDiff();
 
+    void displaySumSquareDiff();
 };
 
 
