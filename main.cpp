@@ -1,5 +1,6 @@
 #include <iostream>
 #include "header/SmallestMultiple.h"
+#include "header/SumSquareDiff.h"
 
 using namespace std;
 
@@ -21,6 +22,8 @@ int main() {
 //    SmallestMultiple smallestMultiple = SmallestMultiple();
 //    smallestMultiple.printMultiple();
 
+    SumSquareDiff sumSquareDiff = SumSquareDiff();
+    sumSquareDiff.displaySumSquareDiff();
 
 
     return 0;
