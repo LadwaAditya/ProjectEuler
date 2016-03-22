@@ -7,7 +7,12 @@
 
 
 class PrimeThousand {
+private:
+    int thousandPrime = 0;
+public:
+    PrimeThousand();
 
+    void displayPrimeThousand();
 };
 
 

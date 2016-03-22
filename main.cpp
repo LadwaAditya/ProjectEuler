@@ -1,6 +1,7 @@
 #include <iostream>
 #include "header/SmallestMultiple.h"
 #include "header/SumSquareDiff.h"
+#include "header/PrimeThousand.h"
 
 using namespace std;
 
@@ -22,9 +23,11 @@ int main() {
 //    SmallestMultiple smallestMultiple = SmallestMultiple();
 //    smallestMultiple.printMultiple();
 
-    SumSquareDiff sumSquareDiff = SumSquareDiff();
-    sumSquareDiff.displaySumSquareDiff();
+//    SumSquareDiff sumSquareDiff = SumSquareDiff();
+//    sumSquareDiff.displaySumSquareDiff();
 
+    PrimeThousand primeThousand = PrimeThousand();
+    primeThousand.displayPrimeThousand();
 
     return 0;
 }
