@@ -2,6 +2,7 @@
 #include "header/SmallestMultiple.h"
 #include "header/SumSquareDiff.h"
 #include "header/PrimeThousand.h"
+#include "header/LargestProductSeries.h"
 
 using namespace std;
 
@@ -26,8 +27,11 @@ int main() {
 //    SumSquareDiff sumSquareDiff = SumSquareDiff();
 //    sumSquareDiff.displaySumSquareDiff();
 
-    PrimeThousand primeThousand = PrimeThousand();
-    primeThousand.displayPrimeThousand();
+//    PrimeThousand primeThousand = PrimeThousand();
+//    primeThousand.displayPrimeThousand();
+
+    LargestProductSeries productSeries = LargestProductSeries();
+    productSeries.displayProduct();
 
     return 0;
 }
