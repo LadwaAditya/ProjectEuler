@@ -1,0 +1,14 @@
+//
+// Created by Aditya on 23-Mar-16.
+//
+
+#ifndef PROJECTEULER_LARGESTPRODUCTSERIES_H
+#define PROJECTEULER_LARGESTPRODUCTSERIES_H
+
+
+class LargestProductSeries {
+
+};
+
+
+#endif //PROJECTEULER_LARGESTPRODUCTSERIES_H
