@@ -7,8 +7,10 @@
 
 LargestProductSeries::LargestProductSeries() {
 
-    for (int i = 0; i <= 999 - 4; i++) {
-        long temp = num[i] * num[i + 1] * num[i + 2] * num[i + 3];
+    for (int i = 0; i <= 999 - 13; i++) {
+        long long int temp = 1;
+        for (int j = i; j <= i + 12; j++)
+            temp *= num[j];
         if (product < temp)
             product = temp;
     }
